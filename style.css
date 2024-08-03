@@ -311,7 +311,7 @@ footer {
   }
   .carousel-container{
     height: 30vh;
-    /* margin: 10px 0px; */
+    margin: 10px 0px;
   }
   .carousel_item {
     height: 30vh;
@@ -357,7 +357,7 @@ footer {
   }
   .home-donate a{
     padding: 10px 10px;
-    margin: 5px 10px;
+    margin: 10px 10px;
   }
   .carousel-container{
     height: 30vh;

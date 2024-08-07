@@ -93,13 +93,13 @@
 .item1 {
   background-image: url("./photo/newhome.jpg");
 }
-/* .item2 {
-  background-image: url("./photo/celebration/10.jpeg");
-} */
-/* .item3 {
-  background-image: url("https://images.unsplash.com/photo-1536697246787-1f7ae568d89a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHNwYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+.item2 {
+  background-image: url("./photo/frontgate.jpg");
 }
-.item4 {
+.item3 {
+  background-image: url("./photo/shradhainsidepic.jpg");
+}
+/* .item4 {
   background-image: url("https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8QUl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
 }
 .item5 {
@@ -130,6 +130,23 @@
   padding: 20px 20px;
   margin: 20px 20px;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.partners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners div {
+  background-color: rgb(173, 221, 227);
+  padding: 8px;
+  margin: 8px;
+  border-radius: 7px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -451,6 +468,21 @@ footer {
     height: 190px;
   }
   .sub-pro-section img {
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-left: 10px;
+    height: 300px;
+  }
+  .about-section div ul {
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .about-section img {
+    padding: 0px 0px;
+    height: 190px;
+  }
+  .sub-about-section img {
     margin-bottom: 15px;
     padding: 10px;
     margin-left: 10px;
